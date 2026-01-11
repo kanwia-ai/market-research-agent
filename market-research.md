@@ -150,12 +150,24 @@ Use Task tool to launch:
 - Opportunity Synthesizer (use prompt from market-research/opportunity-synthesizer.md)
 - Pass ALL findings from Waves 1-3
 
-### Step 5: Deliver Report
+### Step 5: Generate Formatted Output
+
+After the synthesizer saves the markdown report, convert to Word document:
+
+```bash
+python3 ~/.claude/commands/market-research/convert_to_docx.py \
+  ~/research/[project-slug]/reports/[date]-[topic].md \
+  ~/research/[project-slug]/reports/[date]-[topic].docx
+```
+
+### Step 6: Deliver Report
 
 ```
 Research complete.
 
-📄 Full report saved to: ~/research/[project-slug]/reports/[date]-[topic].md
+📄 Reports saved to:
+   - ~/research/[project-slug]/reports/[date]-[topic].md
+   - ~/research/[project-slug]/reports/[date]-[topic].docx
 
 Key findings:
 1. [Top finding]
@@ -169,7 +181,7 @@ Recommendations:
 Want me to:
 a) Dig deeper on any section
 b) Explore a follow-up question
-c) Export to different format
+c) Open the Word document
 d) Done for now
 ```
 

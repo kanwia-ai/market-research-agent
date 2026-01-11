@@ -33,7 +33,9 @@ Wave 4: Opportunity Synthesizer → Final Report
 
 ## Output
 
-- **15-30 page professional report** with executive summary, customer deep dive, competitive analysis, pricing recommendations, and go-to-market strategy
+- **Professional Word document (.docx)** - formatted with proper headings, styles, and structure
+- **Markdown source (.md)** - for version control and easy editing
+- **15-30 page report** with executive summary, customer deep dive, competitive analysis, pricing recommendations, and go-to-market strategy
 - **Raw data files** saved to project folder for reference
 - **Verbatim quotes** and sources for every claim
 
@@ -57,7 +59,7 @@ cp -r market-research/ ~/.claude/commands/
 
 Then describe what you want to research. Example:
 
-> "I want to understand the ICP for AI workshops targeting Nigeria and Ghana. What do they want from AI training, and what's their willingness to pay?"
+> "I'm building a productivity app for freelance designers. I want to understand who would actually pay for this, what features matter most, and what the pricing should be."
 
 ## Project Structure
 
@@ -71,7 +73,8 @@ Then describe what you want to research. Example:
     ├── competitor-profiler.md      # Wave 2
     ├── pricing-intel.md            # Wave 2
     ├── trend-detector.md           # Wave 3
-    └── opportunity-synthesizer.md  # Wave 4
+    ├── opportunity-synthesizer.md  # Wave 4
+    └── convert_to_docx.py          # Report formatter
 ```
 
 ## Research Output Structure
@@ -95,6 +98,7 @@ Then describe what you want to research. Example:
 
 - Claude Code CLI
 - Web search capability enabled
+- Python 3 with `python-docx` (`pip install python-docx`)
 
 ## License
 

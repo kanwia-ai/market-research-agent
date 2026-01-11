@@ -89,9 +89,25 @@ For Voice Miner to prioritize:
 
 Save your full findings to: `{project_path}/raw/communities-found.md`
 
+## Citation Requirements
+
+**Every claim must have a source.** This will be verified.
+
+- Include the URL for every community/platform found
+- Link to the actual subreddit, group, profile, or channel
+- For member counts: cite where you found this (the platform page URL)
+- For influencer reach: link to their profile
+
+Format: `[Claim] - Source: [URL]`
+
+Example:
+- "r/nigerianjobs has 15k members" - Source: https://reddit.com/r/nigerianjobs
+- "@techielagos has 45k followers" - Source: https://twitter.com/techielagos
+
 ## Quality Bar
 
 - Minimum 10 communities/platforms identified
 - At least 3 different platform types
 - Every community has a relevance score with reasoning
 - Specific, actionable recommendations for Voice Miner
+- **Every fact has a source URL**

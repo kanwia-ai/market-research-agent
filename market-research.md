@@ -180,6 +180,7 @@ Research plan:
 - Wave 2: Voice Miner, Competitor Profiler, Pricing Intel
 - Wave 3: Trend Detector
 - Wave 4: Synthesis into full report
+- Wave 5: Source Verification (every claim checked)
 
 I'll update you as findings come in. First results in ~5 min.
 ```
@@ -245,6 +246,41 @@ Use Task tool to launch:
 - Opportunity Synthesizer (use prompt from market-research/opportunity-synthesizer.md)
 - Pass ALL findings from Waves 1-3
 
+Share synthesis status:
+```
+Wave 4 complete. Report drafted.
+
+Now verifying all sources and claims...
+```
+
+**Wave 5: Source Verification**
+
+Use Task tool to launch:
+- Source Verifier (use prompt from market-research/source-verifier.md)
+- Pass the synthesized report and all raw data files
+
+The Source Verifier will:
+- Check every URL is accessible
+- Verify sources support the claims made
+- Flag unsupported or weakly-supported claims
+- Provide confidence score
+
+Share verification results:
+```
+Wave 5 complete. Source verification done.
+
+Confidence: [HIGH/MEDIUM/LOW]
+Verified claims: [X]%
+[If issues:] Critical issues found: [N] - see verification report
+
+Generating final documents...
+```
+
+**If Critical Issues Found:**
+- Review the verification report with user
+- Decide whether to: remove unsupported claims, find alternative sources, or note limitations
+- Update report as needed before generating final output
+
 ### Step 5: Generate Formatted Output
 
 After the synthesizer saves the markdown report, convert to Word document:
@@ -263,6 +299,12 @@ Research complete.
 📄 Reports saved to:
    - ~/research/[project-slug]/reports/[date]-[topic].md
    - ~/research/[project-slug]/reports/[date]-[topic].docx
+   - ~/research/[project-slug]/reports/source-verification.md
+
+🔍 Source Verification: [HIGH/MEDIUM/LOW] confidence
+   - [X]% of claims verified
+   - [N] sources checked
+   - [If any:] [N] issues flagged (see verification report)
 
 Key findings:
 1. [Top finding]
@@ -275,9 +317,10 @@ Recommendations:
 
 Want me to:
 a) Dig deeper on any section
-b) Explore a follow-up question
-c) Open the Word document
-d) Done for now
+b) Review the source verification details
+c) Explore a follow-up question
+d) Open the Word document
+e) Done for now
 ```
 
 ## Sub-Agent Dispatch

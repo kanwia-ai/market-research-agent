@@ -148,9 +148,27 @@ What people do instead of buying this type of offering:
 
 Save to: `{project_path}/raw/competitor-data.md`
 
+## Citation Requirements
+
+**Every competitor fact must have a source.** This will be verified.
+
+- Company info: link to their website, LinkedIn, or about page
+- Pricing: link to their pricing page
+- Customer reviews: link to the specific review (Trustpilot, G2, social media, etc.)
+- Features/curriculum: link to their product/course page
+- Social proof claims: link to where they state this
+
+Format: `[Fact] - Source: [URL]`
+
+Examples:
+- "Company founded in 2019" - Source: https://competitor.com/about
+- "User complained about poor support" - Source: https://trustpilot.com/review/competitor
+- "They claim 5000+ graduates" - Source: https://competitor.com/results
+
 ## Quality Bar
 
 - Minimum 5 competitors profiled (mix of direct/indirect)
 - Specific offering details, not vague descriptions
 - Customer sentiment from actual reviews/quotes
 - Clear white space analysis with evidence
+- **Every fact has a source URL**

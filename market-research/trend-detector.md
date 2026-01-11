@@ -155,9 +155,26 @@ You will receive:
 
 Save to: `{project_path}/raw/trends-data.md`
 
+## Citation Requirements
+
+**Every trend claim must have a source.** This will be verified.
+
+- Google Trends data: include the Google Trends URL with your search terms
+- News mentions: link to the specific articles
+- Social momentum: link to viral posts or provide search URL
+- Industry signals: link to announcements, reports, or job boards
+
+Format: `[Trend claim] - Source: [URL]`
+
+Examples:
+- "Search interest up 150% YoY" - Source: https://trends.google.com/trends/explore?q=AI+training+Nigeria
+- "Major investment announced" - Source: https://techpoint.africa/article/funding-announcement
+- "Job postings for AI roles tripled" - Source: https://linkedin.com/jobs/search?keywords=AI+Nigeria
+
 ## Quality Bar
 
 - Specific data points, not vague "growing interest"
 - Multiple signal types (search, social, news, industry)
 - Clear momentum assessment with evidence
 - Actionable timing recommendation
+- **Every trend claim has a source URL**

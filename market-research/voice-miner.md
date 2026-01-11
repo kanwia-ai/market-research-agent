@@ -141,10 +141,31 @@ Return findings as structured markdown:
 
 Save full quote database to: `{project_path}/raw/voice-quotes.md`
 
+## Citation Requirements
+
+**Every quote must link to its source.** This will be verified.
+
+- Include the exact URL where you found each quote
+- For social media: link to the specific post/comment
+- For forum posts: link to the specific thread
+- If from a private group: note "Private group: [Name]" but still document it
+
+Format for quotes:
+```
+> "[Exact quote]"
+> — Source: [Platform] | [URL]
+```
+
+Example:
+```
+> "I spent $500 on a Python course and still can't get a job. What's the point?"
+> — Source: Reddit | https://reddit.com/r/learnprogramming/comments/abc123
+```
+
 ## Quality Bar
 
 - Minimum 30 verbatim quotes
 - Quotes from at least 5 different sources
 - Clear frequency/intensity ratings backed by evidence
 - Language patterns section is specific and actionable
-- Every quote has source attribution
+- **Every quote has a clickable source URL**

@@ -132,9 +132,26 @@ What destroys value perception:
 
 Save to: `{project_path}/raw/pricing-data.md`
 
+## Citation Requirements
+
+**Every price and statistic must have a source.** This will be verified.
+
+- Competitor prices: link to the pricing page or source
+- Economic statistics: link to the report/article
+- Income data: cite the specific report (World Bank, local stats office, etc.)
+- Price-related quotes: link to the specific post/discussion
+
+Format: `[Data point] - Source: [URL]`
+
+Examples:
+- "DataCamp costs $25/month" - Source: https://datacamp.com/pricing
+- "Average monthly income in Nigeria: $150" - Source: https://worldbank.org/data/nigeria
+- "One user said '$100 is my max'" - Source: https://reddit.com/r/example/abc
+
 ## Quality Bar
 
 - At least 5 competitor prices documented
 - Economic context backed by sources
 - Minimum 5 price-related quotes from target audience
 - Clear, evidence-backed WTP recommendation
+- **Every data point has a source URL**

@@ -20,7 +20,8 @@ Invoke `/market-research` in Claude Code to run comprehensive market research on
 | **Competitor Profiler** | Deep-dives on competitor offerings and gaps |
 | **Local Context** | Geography-specific factors (payments, infrastructure, culture) |
 | **Trend Detector** | Search trends, momentum signals, timing analysis |
-| **Opportunity Synthesizer** | Combines all findings into final report |
+| **Opportunity Synthesizer** | Combines all findings into draft report |
+| **Source Verifier** | Verifies every source and flags unsupported claims |
 
 ## Research Waves
 
@@ -28,16 +29,18 @@ Invoke `/market-research` in Claude Code to run comprehensive market research on
 Wave 1: Community Mapper + Local Context (parallel)
 Wave 2: Voice Miner + Competitor Profiler + Pricing Intel (parallel)
 Wave 3: Trend Detector
-Wave 4: Opportunity Synthesizer → Final Report
+Wave 4: Opportunity Synthesizer → Draft Report
+Wave 5: Source Verifier → Verified Final Report
 ```
 
 ## Output
 
 - **Professional Word document (.docx)** - formatted with proper headings, styles, and structure
 - **Markdown source (.md)** - for version control and easy editing
+- **Source verification report** - every claim checked, confidence score provided
 - **15-30 page report** with executive summary, customer deep dive, competitive analysis, pricing recommendations, and go-to-market strategy
 - **Raw data files** saved to project folder for reference
-- **Verbatim quotes** and sources for every claim
+- **Verbatim quotes** with clickable source URLs for every claim
 
 ## Installation
 
@@ -74,6 +77,7 @@ Then describe what you want to research. Example:
     ├── pricing-intel.md            # Wave 2
     ├── trend-detector.md           # Wave 3
     ├── opportunity-synthesizer.md  # Wave 4
+    ├── source-verifier.md          # Wave 5
     └── convert_to_docx.py          # Report formatter
 ```
 
@@ -81,9 +85,11 @@ Then describe what you want to research. Example:
 
 ```
 ~/research/[project-slug]/
-├── brief.md              # Research question and parameters
+├── brief.md                    # Research question and parameters
 ├── reports/
-│   └── YYYY-MM-DD-*.md   # Final report
+│   ├── YYYY-MM-DD-*.md         # Final report (markdown)
+│   ├── YYYY-MM-DD-*.docx       # Final report (Word)
+│   └── source-verification.md  # Verification report with confidence score
 ├── raw/
 │   ├── communities-found.md
 │   ├── voice-quotes.md
@@ -91,7 +97,7 @@ Then describe what you want to research. Example:
 │   ├── pricing-data.md
 │   ├── local-context.md
 │   └── trends-data.md
-└── notes.md              # Follow-up questions
+└── notes.md                    # Follow-up questions
 ```
 
 ## Requirements

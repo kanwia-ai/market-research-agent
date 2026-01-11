@@ -166,9 +166,26 @@ You will receive:
 
 Save to: `{project_path}/raw/local-context.md`
 
+## Citation Requirements
+
+**Every statistic and fact must have a source.** This will be verified.
+
+- Infrastructure stats: cite the report or article (ITU, World Bank, local sources)
+- Payment landscape: cite industry reports or company announcements
+- Platform usage: cite surveys, reports, or industry analysis
+- Economic data: cite official sources or reputable reports
+
+Format: `[Fact] - Source: [URL]`
+
+Examples:
+- "Nigeria internet penetration: 55%" - Source: https://datareportal.com/nigeria
+- "M-Pesa dominates Kenya mobile payments" - Source: https://safaricom.co.ke/annual-report
+- "Paystack processes $X billion annually" - Source: https://techcrunch.com/article
+
 ## Quality Bar
 
 - Specific data points with sources
 - Actionable recommendations, not just facts
 - Covers all target geographies
 - Payment section is detailed and practical
+- **Every statistic has a source URL**

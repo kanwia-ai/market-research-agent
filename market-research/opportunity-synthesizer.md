@@ -238,14 +238,61 @@ Write the complete report following this structure:
 
 ---
 
+## CRITICAL: Citation Requirements
+
+**Every claim in this report MUST have an inline citation.** This is non-negotiable.
+
+### Inline Citation Format
+
+Use numbered citations throughout the report:
+
+- "The market is growing at 15% annually [1]"
+- "Users report spending 3+ hours daily on admin tasks [2]"
+- According to [G2 Reviews](https://g2.com/products/example), users rate it 4.2/5
+
+### Clickable Source Links
+
+Where possible, make source names clickable hyperlinks:
+
+- [Reddit discussion](https://reddit.com/r/example/comments/abc123)
+- [Competitor pricing page](https://competitor.com/pricing)
+- [Industry report](https://statista.com/statistics/123456)
+
+### Verbatim Quotes
+
+Include actual quotes from customers with attribution:
+
+> "I've tried everything and nothing works for my workflow"
+> — u/frustrated_user, [Reddit](https://reddit.com/r/productivity/comments/xyz)
+
+### Sources Section (REQUIRED)
+
+End the report with a numbered sources section:
+
+```
+## Sources
+
+[1] Reddit r/productivity - https://reddit.com/r/productivity/comments/abc123
+[2] G2 Reviews for CompetitorX - https://g2.com/products/competitorx/reviews
+[3] Statista Market Report 2024 - https://statista.com/statistics/123456
+...
+```
+
+**DO NOT:**
+- Make claims without sources
+- Invent URLs or statistics
+- Use placeholder sources
+- Summarize without attribution
+
 ## Quality Standards for the Report
 
 - **Length:** 15-30 pages of substantive content
 - **Style:** Professional narrative, not just bullets. Write like a McKinsey engagement report.
-- **Evidence:** Every claim backed by specific evidence (quote, data point, source)
+- **Evidence:** Every claim backed by specific evidence with **inline citation [#]**
 - **Actionable:** Reader should know exactly what to do after reading
 - **Balanced:** Present both opportunities and risks honestly
-- **Specific:** No vague statements. Numbers, names, quotes.
+- **Specific:** No vague statements. Numbers, names, quotes - all with sources.
+- **Verifiable:** Every source URL must be real and accessible
 
 ## Save Report
 

@@ -12,37 +12,16 @@ You will receive:
 - `competitors`: List from Competitor Profiler (if available)
 - `project_path`: Where to save raw findings
 
-## Vicious Search Protocol
+## Search Protocol
 
-You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
 
-### Source Requirements by Depth
+The `depth` parameter determines when you stop searching:
+- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
+- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
+- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
 
-| Depth | Minimum Sources | Target | Search Rounds |
-|-------|-----------------|--------|---------------|
-| overview | 10 | 20 | 2 rounds |
-| thorough | 20 | 50 | 4 rounds |
-| deep_dive | 50 | 100+ | 6 rounds |
-
-### Multi-Round Search Strategy
-
-**Round 1 — Initial Sweep:** Search competitor pricing pages, review sites, forums for price discussions.
-
-**Round 2 — Follow the Leads:** Deep dive into each competitor's full pricing structure. Find pricing discussions on Reddit, Twitter, LinkedIn.
-
-**Round 3+ — Exhaustive Coverage:** Search for pricing complaints, "worth it" discussions, price comparisons. Find regional pricing variations.
-
-### Source Diversity Requirements
-
-Gather from MULTIPLE categories:
-- Competitor pricing pages (direct URLs)
-- Review site pricing mentions (G2, Capterra)
-- Forum discussions about pricing
-- Social media price complaints/endorsements
-- Industry reports on market rates
-- Economic data sources (World Bank, IMF)
-
-**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
 
 ## Research Process
 
@@ -182,12 +161,19 @@ Examples:
 
 ## Quality Bar
 
-**Depth-Specific Minimums:**
-- overview: 10 pricing data points documented
-- thorough: 20 pricing data points documented
-- deep_dive: 50 pricing data points documented
+**Completeness over counts.** Before stopping, verify:
 
-- Economic context backed by sources
-- Minimum 5 price-related quotes from target audience
+- [ ] Found pricing for all identified competitors
+- [ ] Searched for pricing discussions in target communities
+- [ ] Gathered economic context data (income, spending norms)
+- [ ] Looked for "too expensive" and "worth it" signals
+- [ ] Checked regional pricing variations
+- [ ] Searches for new pricing data are returning duplicates now
+
+**For deep_dive:** Would you bet money there's no significant pricing data point left to find?
+
+**Always required:**
+- Every price and statistic has a source URL
+- Economic context backed by reputable sources
+- Price-related quotes from target audience
 - Clear, evidence-backed WTP recommendation
-- **Every data point has a source URL**

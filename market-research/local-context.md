@@ -11,37 +11,16 @@ You will receive:
 - `offering_type`: What's being offered
 - `project_path`: Where to save raw findings
 
-## Vicious Search Protocol
+## Search Protocol
 
-You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
 
-### Source Requirements by Depth
+The `depth` parameter determines when you stop searching:
+- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
+- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
+- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
 
-| Depth | Minimum Sources | Target | Search Rounds |
-|-------|-----------------|--------|---------------|
-| overview | 10 | 20 | 2 rounds |
-| thorough | 20 | 50 | 4 rounds |
-| deep_dive | 50 | 100+ | 6 rounds |
-
-### Multi-Round Search Strategy
-
-**Round 1 — Initial Sweep:** Search for official statistics, World Bank data, regional reports.
-
-**Round 2 — Follow the Leads:** Deep dive into each data point. Find local news sources, government statistics, industry reports.
-
-**Round 3+ — Exhaustive Coverage:** Search for cultural insights, payment platform data, local platform usage statistics.
-
-### Source Diversity Requirements
-
-Gather from MULTIPLE categories:
-- Official statistics (World Bank, IMF, government)
-- Industry reports (Statista, DataReportal)
-- Local news and publications
-- Payment platform announcements
-- Cultural analysis articles
-- Academic research on the region
-
-**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
 
 ## Research Process
 
@@ -216,12 +195,19 @@ Examples:
 
 ## Quality Bar
 
-- **Minimum data points by depth:**
-  - overview: 10 data points with sources
-  - thorough: 20 data points with sources
-  - deep_dive: 50 data points with sources
-- Specific data points with sources
-- Actionable recommendations, not just facts
+**Completeness over counts.** Before stopping, verify:
+
+- [ ] Covered digital infrastructure for all target geographies
+- [ ] Researched payment landscape thoroughly (methods, platforms, friction)
+- [ ] Identified platform preferences and local alternatives
+- [ ] Gathered cultural considerations from multiple sources
+- [ ] Checked economic context and market realities
+- [ ] Searches for new local insights are returning duplicates now
+
+**For deep_dive:** Would you bet money there's no significant local context factor left to discover?
+
+**Always required:**
+- Every statistic has a source URL
 - Covers all target geographies
+- Actionable recommendations, not just facts
 - Payment section is detailed and practical
-- **Every statistic has a source URL**

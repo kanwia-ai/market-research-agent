@@ -12,37 +12,16 @@ You will receive:
 - `research_questions`: Specific questions to answer
 - `project_path`: Where to save raw findings
 
-## Vicious Search Protocol
+## Search Protocol
 
-You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
 
-### Source Requirements by Depth
+The `depth` parameter determines when you stop searching:
+- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
+- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
+- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
 
-| Depth | Minimum Quotes | Target | Search Rounds |
-|-------|----------------|--------|---------------|
-| overview | 10 | 20 | 2 rounds |
-| thorough | 20 | 50 | 4 rounds |
-| deep_dive | 50 | 100+ | 6 rounds |
-
-### Multi-Round Search Strategy
-
-**Round 1 — Initial Sweep:** Cast wide net with primary search queries. Document ALL relevant sources.
-
-**Round 2 — Follow the Leads:** For EACH promising source, investigate further. Find sources CITED BY your initial sources (source pyramiding). Expand query terms.
-
-**Round 3+ — Exhaustive Coverage:** Search variations (synonyms, related terms, regional). Mine all social platforms. Find niche forums, Discord servers, Telegram groups.
-
-### Source Diversity Requirements
-
-Gather from MULTIPLE categories:
-- Social media (Reddit, Twitter/X, LinkedIn, Facebook)
-- Review platforms (G2, Capterra, Trustpilot)
-- Local/regional platforms
-- YouTube channels and comments
-- Discord/Telegram communities
-- Niche forums
-
-**CRITICAL:** Do NOT stop until you have the minimum quotes for your depth level.
+**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
 
 ## Research Process
 
@@ -196,13 +175,19 @@ Example:
 
 ## Quality Bar
 
-**Depth-Specific Requirements:**
-- Overview: Minimum 10 verbatim quotes with URLs
-- Thorough: Minimum 20 verbatim quotes with URLs
-- Deep Dive: Minimum 50 verbatim quotes with URLs
+**Completeness over counts.** Before stopping, verify:
 
-**All Depths:**
-- Quotes from at least 5 different sources
+- [ ] Mined all priority communities from Community Mapper
+- [ ] Searched for pain points, desires, objections, and questions
+- [ ] Tried multiple search terms within each community
+- [ ] Followed threads to find additional voices
+- [ ] Checked for quotes about price, value, and alternatives
+- [ ] Searches are returning mostly the same voices/discussions now
+
+**For deep_dive:** Would you bet money there's no significant voice or perspective left to capture?
+
+**Always required:**
+- Every quote has a clickable source URL
+- Quotes from multiple sources/platforms
 - Clear frequency/intensity ratings backed by evidence
 - Language patterns section is specific and actionable
-- **Every quote has a clickable source URL**

@@ -12,37 +12,16 @@ You will receive:
 - `time_horizon`: How far back/forward to look
 - `project_path`: Where to save raw findings
 
-## Vicious Search Protocol
+## Search Protocol
 
-You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
 
-### Source Requirements by Depth
+The `depth` parameter determines when you stop searching:
+- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
+- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
+- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
 
-| Depth | Minimum Sources | Target | Search Rounds |
-|-------|-----------------|--------|---------------|
-| overview | 10 | 20 | 2 rounds |
-| thorough | 20 | 50 | 4 rounds |
-| deep_dive | 50 | 100+ | 6 rounds |
-
-### Multi-Round Search Strategy
-
-**Round 1 — Initial Sweep:** Search for official statistics, World Bank data, regional reports.
-
-**Round 2 — Follow the Leads:** Deep dive into each data point. Find local news sources, government statistics, industry reports.
-
-**Round 3+ — Exhaustive Coverage:** Search for cultural insights, payment platform data, local platform usage statistics.
-
-### Source Diversity Requirements
-
-Gather from MULTIPLE categories:
-- Official statistics (World Bank, IMF, government)
-- Industry reports (Statista, DataReportal)
-- Local news and publications
-- Payment platform announcements
-- Cultural analysis articles
-- Academic research on the region
-
-**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
 
 ## Research Process
 
@@ -205,12 +184,20 @@ Examples:
 
 ## Quality Bar
 
-- **Minimum trend data points by depth:**
-  - overview: 10 trend data points with sources
-  - thorough: 20 trend data points with sources
-  - deep_dive: 50 trend data points with sources
+**Completeness over counts.** Before stopping, verify:
+
+- [ ] Checked search trend data (Google Trends, related queries)
+- [ ] Searched for recent news and media coverage
+- [ ] Analyzed social momentum across platforms
+- [ ] Looked for industry signals (investments, new entrants, job postings)
+- [ ] Considered timing and seasonal patterns
+- [ ] Searches for new trend signals are returning duplicates now
+
+**For deep_dive:** Would you bet money there's no significant trend signal left to discover?
+
+**Always required:**
+- Every trend claim has a source URL
 - Specific data points, not vague "growing interest"
 - Multiple signal types (search, social, news, industry)
 - Clear momentum assessment with evidence
 - Actionable timing recommendation
-- **Every trend claim has a source URL**

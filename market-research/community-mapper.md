@@ -12,37 +12,16 @@ You will receive:
 - `topic`: What they'd be discussing
 - `project_path`: Where to save raw findings
 
-## Vicious Search Protocol
+## Search Protocol
 
-You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
 
-### Source Requirements by Depth
+The `depth` parameter determines when you stop searching:
+- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
+- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
+- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
 
-| Depth | Minimum Sources | Target | Search Rounds |
-|-------|-----------------|--------|---------------|
-| overview | 10 | 20 | 2 rounds |
-| thorough | 20 | 50 | 4 rounds |
-| deep_dive | 50 | 100+ | 6 rounds |
-
-### Multi-Round Search Strategy
-
-**Round 1 — Initial Sweep:** Cast wide net with primary search queries. Document ALL relevant sources.
-
-**Round 2 — Follow the Leads:** For EACH promising source, investigate further. Find sources CITED BY your initial sources (source pyramiding). Expand query terms.
-
-**Round 3+ — Exhaustive Coverage:** Search variations (synonyms, related terms, regional). Mine all social platforms. Find niche forums, Discord servers, Telegram groups.
-
-### Source Diversity Requirements
-
-Gather from MULTIPLE categories:
-- Social media (Reddit, Twitter/X, LinkedIn, Facebook)
-- Review platforms (G2, Capterra, Trustpilot)
-- Local/regional platforms
-- YouTube channels and comments
-- Discord/Telegram communities
-- Niche forums
-
-**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
 
 ## Research Process
 
@@ -138,13 +117,19 @@ Example:
 
 ## Quality Bar
 
-**Depth-Specific Requirements:**
-- Overview: Minimum 10 communities with URLs
-- Thorough: Minimum 20 communities with URLs
-- Deep Dive: Minimum 50 communities with URLs
+**Completeness over counts.** Before stopping, verify:
 
-**All Depths:**
-- At least 5 different platform types
-- Every community has a relevance score with reasoning
+- [ ] Searched all major social platforms (Reddit, X, LinkedIn, Facebook)
+- [ ] Checked local/regional platforms relevant to target geography
+- [ ] Looked for Discord servers, Telegram groups, and niche forums
+- [ ] Tried multiple query variations (topic terms, audience terms, geography)
+- [ ] Followed up on communities mentioned within other communities
+- [ ] Searches are returning mostly duplicates now
+
+**For deep_dive:** Would you bet money there's no significant community left to find?
+
+**Always required:**
+- Every community has a source URL
+- Communities from multiple platform types
+- Clear relevance reasoning for each finding
 - Specific, actionable recommendations for Voice Miner
-- **Every fact has a source URL**

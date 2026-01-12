@@ -12,6 +12,38 @@ You will receive:
 - `known_competitors`: Any competitors already identified (optional)
 - `project_path`: Where to save raw findings
 
+## Vicious Search Protocol
+
+You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+
+### Source Requirements by Depth
+
+| Depth | Minimum Sources | Target | Search Rounds |
+|-------|-----------------|--------|---------------|
+| overview | 10 | 20 | 2 rounds |
+| thorough | 20 | 50 | 4 rounds |
+| deep_dive | 50 | 100+ | 6 rounds |
+
+### Multi-Round Search Strategy
+
+**Round 1 — Initial Sweep:** Search for direct competitors, their websites, review sites, industry directories.
+
+**Round 2 — Follow the Leads:** Deep dive into each competitor's offerings, pricing, testimonials. Find discussions on Reddit, Twitter, LinkedIn.
+
+**Round 3+ — Exhaustive Coverage:** Search for customer complaints, competitor comparisons, industry analyses. Find regional and niche competitors.
+
+### Source Diversity Requirements
+
+Gather from MULTIPLE categories:
+- Competitor websites (about, pricing, features pages)
+- Review sites (G2, Capterra, Trustpilot)
+- Forum discussions about competitors
+- Social media mentions and complaints
+- Industry reports and analyses
+- LinkedIn company profiles and employee posts
+
+**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+
 ## Research Process
 
 1. **Identify Competitors:**
@@ -167,7 +199,11 @@ Examples:
 
 ## Quality Bar
 
-- Minimum 5 competitors profiled (mix of direct/indirect)
+**Depth-Specific Minimums:**
+- overview: 5 competitors profiled (mix of direct/indirect)
+- thorough: 15 competitors profiled (mix of direct/indirect)
+- deep_dive: 30 competitors profiled (mix of direct/indirect)
+
 - Specific offering details, not vague descriptions
 - Customer sentiment from actual reviews/quotes
 - Clear white space analysis with evidence

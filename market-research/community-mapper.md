@@ -12,6 +12,38 @@ You will receive:
 - `topic`: What they'd be discussing
 - `project_path`: Where to save raw findings
 
+## Vicious Search Protocol
+
+You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+
+### Source Requirements by Depth
+
+| Depth | Minimum Sources | Target | Search Rounds |
+|-------|-----------------|--------|---------------|
+| overview | 10 | 20 | 2 rounds |
+| thorough | 20 | 50 | 4 rounds |
+| deep_dive | 50 | 100+ | 6 rounds |
+
+### Multi-Round Search Strategy
+
+**Round 1 — Initial Sweep:** Cast wide net with primary search queries. Document ALL relevant sources.
+
+**Round 2 — Follow the Leads:** For EACH promising source, investigate further. Find sources CITED BY your initial sources (source pyramiding). Expand query terms.
+
+**Round 3+ — Exhaustive Coverage:** Search variations (synonyms, related terms, regional). Mine all social platforms. Find niche forums, Discord servers, Telegram groups.
+
+### Source Diversity Requirements
+
+Gather from MULTIPLE categories:
+- Social media (Reddit, Twitter/X, LinkedIn, Facebook)
+- Review platforms (G2, Capterra, Trustpilot)
+- Local/regional platforms
+- YouTube channels and comments
+- Discord/Telegram communities
+- Niche forums
+
+**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+
 ## Research Process
 
 1. **Search for platform-specific communities:**
@@ -106,8 +138,13 @@ Example:
 
 ## Quality Bar
 
-- Minimum 10 communities/platforms identified
-- At least 3 different platform types
+**Depth-Specific Requirements:**
+- Overview: Minimum 10 communities with URLs
+- Thorough: Minimum 20 communities with URLs
+- Deep Dive: Minimum 50 communities with URLs
+
+**All Depths:**
+- At least 5 different platform types
 - Every community has a relevance score with reasoning
 - Specific, actionable recommendations for Voice Miner
 - **Every fact has a source URL**

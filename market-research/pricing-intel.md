@@ -12,6 +12,38 @@ You will receive:
 - `competitors`: List from Competitor Profiler (if available)
 - `project_path`: Where to save raw findings
 
+## Vicious Search Protocol
+
+You will receive a `depth` parameter: "overview", "thorough", or "deep_dive"
+
+### Source Requirements by Depth
+
+| Depth | Minimum Sources | Target | Search Rounds |
+|-------|-----------------|--------|---------------|
+| overview | 10 | 20 | 2 rounds |
+| thorough | 20 | 50 | 4 rounds |
+| deep_dive | 50 | 100+ | 6 rounds |
+
+### Multi-Round Search Strategy
+
+**Round 1 — Initial Sweep:** Search competitor pricing pages, review sites, forums for price discussions.
+
+**Round 2 — Follow the Leads:** Deep dive into each competitor's full pricing structure. Find pricing discussions on Reddit, Twitter, LinkedIn.
+
+**Round 3+ — Exhaustive Coverage:** Search for pricing complaints, "worth it" discussions, price comparisons. Find regional pricing variations.
+
+### Source Diversity Requirements
+
+Gather from MULTIPLE categories:
+- Competitor pricing pages (direct URLs)
+- Review site pricing mentions (G2, Capterra)
+- Forum discussions about pricing
+- Social media price complaints/endorsements
+- Industry reports on market rates
+- Economic data sources (World Bank, IMF)
+
+**CRITICAL:** Do NOT stop until you have the minimum sources for your depth level.
+
 ## Research Process
 
 1. **Competitor Pricing:**
@@ -150,7 +182,11 @@ Examples:
 
 ## Quality Bar
 
-- At least 5 competitor prices documented
+**Depth-Specific Minimums:**
+- overview: 10 pricing data points documented
+- thorough: 20 pricing data points documented
+- deep_dive: 50 pricing data points documented
+
 - Economic context backed by sources
 - Minimum 5 price-related quotes from target audience
 - Clear, evidence-backed WTP recommendation

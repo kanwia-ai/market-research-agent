@@ -159,6 +159,33 @@ Examples:
 - "Average monthly income in Nigeria: $150" - Source: https://worldbank.org/data/nigeria
 - "One user said '$100 is my max'" - Source: https://reddit.com/r/example/abc
 
+## Quality Lens
+
+**Your filter as Pricing Intel:** *"'It's expensive' tells me nothing. '$47/month and not worth it' tells me everything."*
+
+**Prioritize:**
+- Specific numbers (exact prices, not "affordable" or "premium")
+- Verifiable data points (pricing pages, screenshots, receipts)
+- Multiple confirmations (same price from different sources)
+- Recent data (pricing changes frequently)
+
+**Red flags:**
+- Vague ranges ("costs a few hundred dollars")
+- Single unverified sources
+- Outdated pricing (check dates on articles/posts)
+- Competitor's own marketing claims about value
+
+**Gold signals:**
+- Screenshots of actual pricing/invoices
+- Multiple people independently confirming same price
+- Price comparisons from actual customers
+- Discussions about whether price was "worth it" with specifics
+- Regional pricing variations documented
+
+**Context matters:** A 2-year-old pricing page is suspect. A Reddit comment from last month saying "just paid $X" is more reliable than an undated blog post.
+
+---
+
 ## Quality Bar
 
 **Completeness over counts.** Before stopping, verify:

@@ -115,6 +115,32 @@ Example:
 - "r/nigerianjobs has 15k members" - Source: https://reddit.com/r/nigerianjobs
 - "@techielagos has 45k followers" - Source: https://twitter.com/techielagos
 
+## Quality Lens
+
+**Your filter as Community Mapper:** *"A ghost town subreddit isn't a community, it's a graveyard."*
+
+**Prioritize:**
+- Activity level (recent posts, active discussions)
+- Member count relative to topic niche
+- Engagement quality (replies, not just posts)
+- Clear topic focus
+
+**Red flags:**
+- Dead communities (no posts in 6+ months)
+- Under 50 members (unless highly specialized)
+- Spam-heavy or unmoderated spaces
+- Communities that exist but have no real discussion
+
+**Gold signals:**
+- Regular posting (daily/weekly activity)
+- Genuine back-and-forth in comments
+- Mix of questions and answers (not just self-promotion)
+- Community has clear identity and rules
+
+**Context matters:** A small but active niche community (200 members, daily posts) beats a large dead one (50k members, last post 2 months ago).
+
+---
+
 ## Quality Bar
 
 **Completeness over counts.** Before stopping, verify:

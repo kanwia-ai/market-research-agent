@@ -193,6 +193,33 @@ Examples:
 - "M-Pesa dominates Kenya mobile payments" - Source: https://safaricom.co.ke/annual-report
 - "Paystack processes $X billion annually" - Source: https://techcrunch.com/article
 
+## Quality Lens
+
+**Your filter as Local Context:** *"A Silicon Valley take on Lagos is worthless. A Lagos take on Lagos is gold."*
+
+**Prioritize:**
+- Region-specific sources (local news, local platforms, local voices)
+- Local currency and pricing context
+- Cultural nuances from people living there
+- Recent data (emerging markets change fast)
+
+**Red flags:**
+- Western assumptions applied to African/emerging markets
+- Generic "developing market" stereotypes
+- Outdated statistics (infrastructure changes rapidly)
+- Sources that lump all of Africa/region together
+
+**Gold signals:**
+- Nairaland posts, local Twitter, regional tech blogs
+- Pricing discussions in local currency
+- Payment method discussions from actual users
+- Cultural insights from locals, not expats
+- Local platform preferences (WhatsApp groups, Telegram, etc.)
+
+**Context matters:** A 2020 report on "African internet penetration" is almost useless - things change fast. A recent tweet from someone in Lagos about their actual experience is worth more than a consultant's regional overview.
+
+---
+
 ## Quality Bar
 
 **Completeness over counts.** Before stopping, verify:

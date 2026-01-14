@@ -176,6 +176,33 @@ Examples:
 - "User complained about poor support" - Source: https://trustpilot.com/review/competitor
 - "They claim 5000+ graduates" - Source: https://competitor.com/results
 
+## Quality Lens
+
+**Your filter as Competitor Profiler:** *"What competitors say about themselves is noise. What their customers say is signal."*
+
+**Prioritize:**
+- Customer reviews and complaints (Trustpilot, G2, Reddit, Twitter)
+- Recent information (companies change fast)
+- Switching stories ("I left X for Y because...")
+- Feature gaps mentioned by actual users
+
+**Red flags:**
+- Competitor's own marketing claims
+- Press releases and PR fluff
+- Outdated information (check when reviews/articles were written)
+- Testimonials on competitor's own site (curated)
+
+**Gold signals:**
+- Negative reviews with specific complaints
+- Comparison posts from people who tried multiple options
+- "Why I switched" stories
+- Questions asking "is X still good?" (implies problems)
+- Support forum complaints
+
+**Context matters:** A competitor's polished marketing page tells you their positioning, not their reality. Prioritize unfiltered customer voice over official communications.
+
+---
+
 ## Quality Bar
 
 **Completeness over counts.** Before stopping, verify:

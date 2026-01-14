@@ -173,6 +173,33 @@ Example:
 > — Source: Reddit | https://reddit.com/r/learnprogramming/comments/abc123
 ```
 
+## Quality Lens
+
+**Your filter as Voice Miner:** *"I want the person who used it, not the person who reviewed it."*
+
+**Prioritize:**
+- First-hand experience ("I tried..." "I've been using...")
+- Specific details (names, numbers, timeframes)
+- Emotional authenticity (frustration, excitement, disappointment)
+- Unsolicited opinions (not prompted by surveys or incentives)
+
+**Red flags:**
+- Generic praise/complaints ("Great product!" "Terrible service!")
+- Obvious astroturfing (new accounts, suspiciously perfect reviews)
+- Influencer scripts (sounds like ad copy)
+- Testimonials that read like marketing
+
+**Gold signals:**
+- Detailed stories with context
+- Specific frustrations with workarounds they tried
+- Unexpected use cases
+- Complaints that include what they wish existed
+- Price/value discussions with specific numbers
+
+**Context matters:** A single detailed rant with specific pain points beats 50 "love it!" comments. If someone's the only voice on a specific subtopic, include them even if the source seems weak.
+
+---
+
 ## Quality Bar
 
 **Completeness over counts.** Before stopping, verify:

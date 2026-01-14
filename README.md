@@ -1,6 +1,6 @@
 # Market Research Agent
 
-A Claude Code skill that produces professional-grade market research reports (15-30 pages) by orchestrating specialized sub-agents in parallel.
+A Claude Code skill that produces professional-grade market research reports (30+ pages) by orchestrating specialized sub-agents in parallel.
 
 ## What It Does
 
@@ -8,7 +8,7 @@ Invoke `/market-research` in Claude Code to run comprehensive market research on
 
 1. **Scopes your research question** through conversational Q&A
 2. **Dispatches 7 specialized sub-agents** in parallel waves
-3. **Produces a professional report** worth $25K from a consulting firm
+3. **Produces a professional report** on par with what youd get spending $25K at a market research firm
 
 ## Specialized Sub-Agents
 

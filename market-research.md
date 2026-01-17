@@ -10,117 +10,43 @@ User types `/market-research` to begin.
 
 ## Conversation Flow
 
-### Step 1: Research Intake (The $25K Questions)
-
-This intake process is critical. A thorough scoping prevents wasted research and ensures actionable output. Ask these questions conversationally - not as a checklist, but as a discovery conversation.
-
-**Opening:**
-```
-Before I start researching, I need to understand your situation well enough to give you $25K-quality insights. Let's spend a few minutes on intake.
-```
-
-**Phase 1: The Offering**
+### Step 1: Understand the Research Question
 
 ```
-First, tell me about what you're building or considering:
-
-1. What is it? (product, service, course, marketplace, etc.)
-2. What problem does it solve - in one sentence?
-3. How would it be delivered? (online, in-person, physical product, SaaS, etc.)
+What do you want to research? Describe the question, market, or opportunity you're exploring.
 ```
 
-Wait for response, then:
+Gather:
+- Research question/topic
+- Target market/geography
+- Key decisions this will inform
+- Any existing hypotheses to validate
 
+### Step 2: Scope the Research
+
+Ask:
 ```
-4. Do you have a pricing model in mind? Even a rough idea helps.
-   - One-time purchase
-   - Subscription
-   - Tiered/freemium
-   - Usage-based
-   - Not sure yet
-```
+A few questions to scope this right:
 
-**Phase 2: Customer Hypothesis**
-
-```
-Now let's talk about who you think the customer is:
-
-5. Who do you imagine buying this? Be as specific as you can - not just demographics, but their situation.
-
-6. Have you talked to any potential customers yet?
-   - If yes: What did you learn? What surprised you?
-   - If no: That's fine - this research will help.
-
-7. Any customer segments you want me to specifically INCLUDE or EXCLUDE?
+1. What decision will this research inform?
+   a) Pricing a new offering
+   b) Deciding whether to enter this market
+   c) Designing product/positioning
+   d) All of the above
+   e) Other: [specify]
 ```
 
-**Phase 3: Market Context**
-
+Then:
 ```
-Let's talk about the market:
-
-8. What geographies or markets are you targeting?
-
-9. Who are the competitors you're already aware of? (Even if you're not sure they're direct competitors)
-
-10. Why do you believe there's an opportunity here? What's your thesis?
+2. Any existing hypotheses you want me to validate or challenge?
 ```
 
-**Phase 4: Business Reality**
-
+Then:
 ```
-A few questions about your situation - this helps me calibrate recommendations:
-
-11. What stage are you at?
-    a) Exploring an idea
-    b) Committed to building, figuring out the details
-    c) Already have something, looking to expand/pivot
-    d) Existing business entering new market
-
-12. Roughly, what resources do you have to execute?
-    (I'm not asking for exact numbers - just "bootstrapped solo founder" vs "funded team of 10" vs "division of large company")
-```
-
-**Phase 5: Research Priorities**
-
-```
-Finally, let's make sure I focus on what matters most:
-
-13. What's the #1 question you need answered? If this research only answered one thing well, what should it be?
-
-14. What would make you decide to MOVE FORWARD vs. NOT move forward? What are the kill criteria?
-
-15. What do you already know that I shouldn't waste time rediscovering? Any previous research, conversations, or insights I should build on rather than duplicate?
-```
-
-**Phase 6: Confirm Understanding**
-
-Before launching research, summarize back:
-```
-Let me make sure I have this right:
-
-- You're building: [summary]
-- For: [customer hypothesis]
-- In: [market/geography]
-- Key question: [#1 priority]
-- Kill criteria: [what would stop them]
-- I should NOT waste time on: [known information]
-
-Does this capture it? Anything to add or correct?
-```
-
-Wait for confirmation before proceeding.
-
-### Step 2: Depth Selection
-
-```
-One more thing - how deep should I go?
-
-a) Solid overview (~20 min) - Good for early-stage "should I even pursue this?"
-b) Thorough analysis (~45 min) - Comprehensive report with actionable recommendations
-c) Leave no stone unturned (~90 min) - Deep dive with extensive sourcing
-
-For most decisions, (b) is the sweet spot. Choose (c) if you're about to make a major investment or commitment.
+3. Depth preference:
+   a) Faster (~20 min) - solid overview
+   b) Thorough (~45 min) - comprehensive report
+   c) Deep dive (~90 min) - leave no stone unturned
 ```
 
 ### Step 3: Create Project Folder
@@ -140,33 +66,12 @@ Save the research brief to `brief.md`:
 ```markdown
 # Research Brief
 
-**Date:** [Today's date]
+**Question:** [Research question]
+**Target Market:** [Geography/demographics]
+**Decision to Inform:** [What decision]
+**Hypotheses to Test:** [Any hypotheses]
 **Depth:** [Selected depth level]
-
-## The Offering
-- **What:** [Product/service/course description]
-- **Problem Solved:** [One sentence]
-- **Delivery Model:** [Online/in-person/SaaS/etc.]
-- **Pricing Model:** [Their thinking on pricing]
-
-## Customer Hypothesis
-- **Target Customer:** [Their description of who they think buys]
-- **Customer Conversations:** [What they've learned from talking to customers, or "None yet"]
-- **Include/Exclude:** [Any segment constraints]
-
-## Market Context
-- **Geography:** [Target markets]
-- **Known Competitors:** [Competitors they mentioned]
-- **Opportunity Thesis:** [Why they believe there's opportunity]
-
-## Business Reality
-- **Stage:** [Exploring / Committed / Expanding / Entering new market]
-- **Resources:** [Bootstrapped solo / Small team / Funded / Corporate]
-
-## Research Priorities
-- **#1 Question:** [The most important thing to answer]
-- **Kill Criteria:** [What would make them NOT proceed]
-- **Already Known:** [Information not to duplicate]
+**Date:** [Today's date]
 ```
 
 ### Step 4: Execute Research Waves
@@ -179,8 +84,7 @@ Research plan:
 - Wave 1: Community Mapper + Local Context [launching now]
 - Wave 2: Voice Miner, Competitor Profiler, Pricing Intel
 - Wave 3: Trend Detector
-- Wave 4: Synthesis into full report
-- Wave 5: Source Verification (every claim checked)
+- Wave 4: Synthesis + PM Analysis (parallel) [reasoning models]
 
 I'll update you as findings come in. First results in ~5 min.
 ```
@@ -240,71 +144,27 @@ Timing signals: [key insights]
 Now synthesizing into final report...
 ```
 
-**Wave 4: Synthesis**
+**Wave 4: Synthesis + PM Analysis (Parallel)**
 
-Use Task tool to launch:
+Use Task tool to launch in parallel:
 - Opportunity Synthesizer (use prompt from market-research/opportunity-synthesizer.md)
-- Pass ALL findings from Waves 1-3
+  - Model: reasoning (heavy synthesis task)
+  - Pass ALL findings from Waves 1-3
+- PM Expert Agent (use prompt from market-research/pm-expert.md)
+  - Model: reasoning (framework application)
+  - Pass paths to all raw findings files
 
-Share synthesis status:
-```
-Wave 4 complete. Report drafted.
+Wait for both to complete. The Opportunity Synthesizer will:
+1. Draft the main report
+2. Read PM Expert's analysis from `{project_path}/raw/pm-analysis.md`
+3. Merge the Strategic Interpretation section into the report
 
-Now verifying all sources and claims...
-```
-
-**Wave 5: Source Verification**
-
-Use Task tool to launch:
-- Source Verifier (use prompt from market-research/source-verifier.md)
-- Pass the synthesized report and all raw data files
-
-The Source Verifier will:
-- Check every URL is accessible
-- Verify sources support the claims made
-- Flag unsupported or weakly-supported claims
-- Provide confidence score
-
-Share verification results:
-```
-Wave 5 complete. Source verification done.
-
-Confidence: [HIGH/MEDIUM/LOW]
-Verified claims: [X]%
-[If issues:] Critical issues found: [N] - see verification report
-
-Generating final documents...
-```
-
-**If Critical Issues Found:**
-- Review the verification report with user
-- Decide whether to: remove unsupported claims, find alternative sources, or note limitations
-- Update report as needed before generating final output
-
-### Step 5: Generate Formatted Output
-
-After the synthesizer saves the markdown report, convert to Word document:
-
-```bash
-python3 ~/.claude/commands/market-research/convert_to_docx.py \
-  ~/research/[project-slug]/reports/[date]-[topic].md \
-  ~/research/[project-slug]/reports/[date]-[topic].docx
-```
-
-### Step 6: Deliver Report
+### Step 5: Deliver Report
 
 ```
 Research complete.
 
-📄 Reports saved to:
-   - ~/research/[project-slug]/reports/[date]-[topic].md
-   - ~/research/[project-slug]/reports/[date]-[topic].docx
-   - ~/research/[project-slug]/reports/source-verification.md
-
-🔍 Source Verification: [HIGH/MEDIUM/LOW] confidence
-   - [X]% of claims verified
-   - [N] sources checked
-   - [If any:] [N] issues flagged (see verification report)
+📄 Full report saved to: ~/research/[project-slug]/reports/[date]-[topic].md
 
 Key findings:
 1. [Top finding]
@@ -317,10 +177,9 @@ Recommendations:
 
 Want me to:
 a) Dig deeper on any section
-b) Review the source verification details
-c) Explore a follow-up question
-d) Open the Word document
-e) Done for now
+b) Explore a follow-up question
+c) Export to different format
+d) Done for now
 ```
 
 ## Sub-Agent Dispatch
@@ -328,7 +187,7 @@ e) Done for now
 When launching sub-agents, use the Task tool with:
 - `subagent_type`: "general-purpose"
 - Read the sub-agent prompt from the appropriate file in `~/.claude/commands/market-research/`
-- Include the FULL research brief - sub-agents need all context to do quality work
+- Include the research inputs specific to this project
 
 Example dispatch for Community Mapper:
 ```
@@ -338,42 +197,23 @@ Task tool:
   prompt: |
     [Read and include full content of market-research/community-mapper.md]
 
-    ## Research Brief for This Project
-
-    ### The Offering
-    - What: [from intake]
-    - Problem Solved: [from intake]
-    - Delivery Model: [from intake]
-    - Pricing Model: [from intake]
-
-    ### Customer Hypothesis
-    - Target Customer: [from intake - this is their hypothesis, validate or challenge it]
-    - Customer Conversations: [what they've already learned]
-    - Include/Exclude: [segment constraints]
-
-    ### Market Context
-    - Geography: [target markets]
-    - Known Competitors: [start here, find more]
-    - Opportunity Thesis: [their belief - validate or challenge]
-
-    ### Business Reality
-    - Stage: [exploring/committed/expanding/entering]
-    - Resources: [calibrate recommendations appropriately]
-
-    ### Research Priorities
-    - #1 Question: [FOCUS HERE - this is what matters most]
-    - Kill Criteria: [look for evidence for/against]
-    - Already Known: [don't duplicate this work]
-
-    ### Output Location
+    ## Research Inputs for This Project
+    - target_audience: [from user's research question]
+    - geography: [from user's target market]
+    - topic: [from user's research question]
     - project_path: ~/research/[project-slug]
 ```
 
-**Critical:** Every sub-agent receives the full brief. This enables:
-- Competitor Profiler to start with known competitors and find more
-- Voice Miner to look for language that validates/challenges customer hypothesis
-- Pricing Intel to calibrate recommendations to their resources/stage
-- All agents to focus on the #1 question
+### Model Selection
+
+| Wave | Agent | Model | Rationale |
+|------|-------|-------|-----------|
+| 1-3 | All research agents | standard | Search & extraction - speed matters |
+| 4 | Opportunity Synthesizer | reasoning | Massive data synthesis requires deep thinking |
+| 4 | PM Expert Agent | reasoning | Framework application and strategic inference |
+| 5 | Source Verifier | standard | Mechanical verification task |
+
+When launching Wave 4 agents, specify `model: reasoning` in the Task tool parameters.
 
 ## Error Handling
 

@@ -12,17 +12,6 @@ You will receive:
 - `known_competitors`: Any competitors already identified (optional)
 - `project_path`: Where to save raw findings
 
-## Search Protocol
-
-**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
-
-The `depth` parameter determines when you stop searching:
-- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
-- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
-- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
-
-**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
-
 ## Research Process
 
 1. **Identify Competitors:**
@@ -46,6 +35,13 @@ The `depth` parameter determines when you stop searching:
    - What's missing from current offerings?
    - What complaints are unaddressed?
    - What segments are underserved?
+
+### PM Signals (prioritize these patterns)
+- What alternatives do customers compare them to? (competitive alternatives)
+- What can they do that incumbents can't/won't copy? (counter-positioning)
+- Network effects, switching costs, or scale advantages mentioned?
+- How do customers describe the difference in their own words?
+- Category they're placed in vs. category they claim
 
 ## Output Format
 
@@ -159,65 +155,9 @@ What people do instead of buying this type of offering:
 
 Save to: `{project_path}/raw/competitor-data.md`
 
-## Citation Requirements
-
-**Every competitor fact must have a source.** This will be verified.
-
-- Company info: link to their website, LinkedIn, or about page
-- Pricing: link to their pricing page
-- Customer reviews: link to the specific review (Trustpilot, G2, social media, etc.)
-- Features/curriculum: link to their product/course page
-- Social proof claims: link to where they state this
-
-Format: `[Fact] - Source: [URL]`
-
-Examples:
-- "Company founded in 2019" - Source: https://competitor.com/about
-- "User complained about poor support" - Source: https://trustpilot.com/review/competitor
-- "They claim 5000+ graduates" - Source: https://competitor.com/results
-
-## Quality Lens
-
-**Your filter as Competitor Profiler:** *"What competitors say about themselves is noise. What their customers say is signal."*
-
-**Prioritize:**
-- Customer reviews and complaints (Trustpilot, G2, Reddit, Twitter)
-- Recent information (companies change fast)
-- Switching stories ("I left X for Y because...")
-- Feature gaps mentioned by actual users
-
-**Red flags:**
-- Competitor's own marketing claims
-- Press releases and PR fluff
-- Outdated information (check when reviews/articles were written)
-- Testimonials on competitor's own site (curated)
-
-**Gold signals:**
-- Negative reviews with specific complaints
-- Comparison posts from people who tried multiple options
-- "Why I switched" stories
-- Questions asking "is X still good?" (implies problems)
-- Support forum complaints
-
-**Context matters:** A competitor's polished marketing page tells you their positioning, not their reality. Prioritize unfiltered customer voice over official communications.
-
----
-
 ## Quality Bar
 
-**Completeness over counts.** Before stopping, verify:
-
-- [ ] Searched for direct competitors (same offering, same market)
-- [ ] Identified indirect competitors (different offering, same need)
-- [ ] Found substitutes (what people do instead)
-- [ ] Checked review sites for customer sentiment on each competitor
-- [ ] Looked for niche and regional competitors
-- [ ] Searches for new competitors are returning mostly known names now
-
-**For deep_dive:** Would you bet money there's no significant competitor left to discover?
-
-**Always required:**
-- Every competitor fact has a source URL
+- Minimum 5 competitors profiled (mix of direct/indirect)
 - Specific offering details, not vague descriptions
 - Customer sentiment from actual reviews/quotes
 - Clear white space analysis with evidence

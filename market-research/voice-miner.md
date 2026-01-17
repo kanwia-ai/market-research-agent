@@ -12,17 +12,6 @@ You will receive:
 - `research_questions`: Specific questions to answer
 - `project_path`: Where to save raw findings
 
-## Search Protocol
-
-**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
-
-The `depth` parameter determines when you stop searching:
-- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
-- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
-- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
-
-**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
-
 ## Research Process
 
 1. **For each priority community, search for:**
@@ -32,6 +21,15 @@ The `depth` parameter determines when you stop searching:
    - Discussions about solutions (what they've tried)
    - Price/value discussions (WTP signals)
    - Objections and concerns (barriers)
+
+### PM Signals (prioritize these patterns)
+- "I switched from X because..." — switching triggers
+- "I was trying to..." — job-to-be-done language
+- "I fired/quit/stopped using..." — competitive displacement
+- "The moment I realized..." — aha moments / activation
+- "I would pay more if..." — willingness-to-pay signals
+- "I almost didn't buy because..." — purchase anxiety
+- Workarounds and hacks — unmet jobs
 
 2. **Extract verbatim quotes:**
    - Copy exact language (don't paraphrase)
@@ -152,69 +150,10 @@ Return findings as structured markdown:
 
 Save full quote database to: `{project_path}/raw/voice-quotes.md`
 
-## Citation Requirements
-
-**Every quote must link to its source.** This will be verified.
-
-- Include the exact URL where you found each quote
-- For social media: link to the specific post/comment
-- For forum posts: link to the specific thread
-- If from a private group: note "Private group: [Name]" but still document it
-
-Format for quotes:
-```
-> "[Exact quote]"
-> — Source: [Platform] | [URL]
-```
-
-Example:
-```
-> "I spent $500 on a Python course and still can't get a job. What's the point?"
-> — Source: Reddit | https://reddit.com/r/learnprogramming/comments/abc123
-```
-
-## Quality Lens
-
-**Your filter as Voice Miner:** *"I want the person who used it, not the person who reviewed it."*
-
-**Prioritize:**
-- First-hand experience ("I tried..." "I've been using...")
-- Specific details (names, numbers, timeframes)
-- Emotional authenticity (frustration, excitement, disappointment)
-- Unsolicited opinions (not prompted by surveys or incentives)
-
-**Red flags:**
-- Generic praise/complaints ("Great product!" "Terrible service!")
-- Obvious astroturfing (new accounts, suspiciously perfect reviews)
-- Influencer scripts (sounds like ad copy)
-- Testimonials that read like marketing
-
-**Gold signals:**
-- Detailed stories with context
-- Specific frustrations with workarounds they tried
-- Unexpected use cases
-- Complaints that include what they wish existed
-- Price/value discussions with specific numbers
-
-**Context matters:** A single detailed rant with specific pain points beats 50 "love it!" comments. If someone's the only voice on a specific subtopic, include them even if the source seems weak.
-
----
-
 ## Quality Bar
 
-**Completeness over counts.** Before stopping, verify:
-
-- [ ] Mined all priority communities from Community Mapper
-- [ ] Searched for pain points, desires, objections, and questions
-- [ ] Tried multiple search terms within each community
-- [ ] Followed threads to find additional voices
-- [ ] Checked for quotes about price, value, and alternatives
-- [ ] Searches are returning mostly the same voices/discussions now
-
-**For deep_dive:** Would you bet money there's no significant voice or perspective left to capture?
-
-**Always required:**
-- Every quote has a clickable source URL
-- Quotes from multiple sources/platforms
+- Minimum 30 verbatim quotes
+- Quotes from at least 5 different sources
 - Clear frequency/intensity ratings backed by evidence
 - Language patterns section is specific and actionable
+- Every quote has source attribution

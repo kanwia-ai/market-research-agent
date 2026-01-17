@@ -12,17 +12,6 @@ You will receive:
 - `time_horizon`: How far back/forward to look
 - `project_path`: Where to save raw findings
 
-## Search Protocol
-
-**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
-
-The `depth` parameter determines when you stop searching:
-- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
-- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
-- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
-
-**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
-
 ## Research Process
 
 1. **Search Trend Data:**
@@ -52,6 +41,12 @@ The `depth` parameter determines when you stop searching:
    - Seasonal patterns
    - Event-driven opportunities
    - Market timing signals
+
+### PM Signals (prioritize these patterns)
+- "The old way was... the new way is..." — market shift language
+- Winners and losers emerging from the shift
+- "Finally, someone..." — unmet demand surfacing
+- Investor/media narratives about category change
 
 ## Output Format
 
@@ -166,64 +161,8 @@ The `depth` parameter determines when you stop searching:
 
 Save to: `{project_path}/raw/trends-data.md`
 
-## Citation Requirements
-
-**Every trend claim must have a source.** This will be verified.
-
-- Google Trends data: include the Google Trends URL with your search terms
-- News mentions: link to the specific articles
-- Social momentum: link to viral posts or provide search URL
-- Industry signals: link to announcements, reports, or job boards
-
-Format: `[Trend claim] - Source: [URL]`
-
-Examples:
-- "Search interest up 150% YoY" - Source: https://trends.google.com/trends/explore?q=AI+training+Nigeria
-- "Major investment announced" - Source: https://techpoint.africa/article/funding-announcement
-- "Job postings for AI roles tripled" - Source: https://linkedin.com/jobs/search?keywords=AI+Nigeria
-
-## Quality Lens
-
-**Your filter as Trend Detector:** *"One tweet is nothing. The same complaint on Reddit, Twitter, and Facebook? That's a wave."*
-
-**Prioritize:**
-- Velocity of mentions (increasing frequency over time)
-- Cross-platform consistency (same topic appearing in unconnected places)
-- Emerging terminology (new words/phrases gaining traction)
-- Pattern shifts (change from previous norms)
-
-**Red flags:**
-- One-off viral moments (flash in the pan)
-- Hype without substance (buzzwords, no real adoption)
-- Single-source trends (one influencer pushing something)
-- Manufactured trends (PR campaigns, paid promotion)
-
-**Gold signals:**
-- Same topic appearing independently across platforms
-- Rising search interest backed by actual discussions
-- New entrants/investments in the space
-- Job postings increasing for related skills
-- Organic community growth (not paid/promoted)
-
-**Context matters:** A Google Trends spike means nothing without corroborating signals. Look for trends that show up in multiple independent places - that's real momentum, not noise.
-
----
-
 ## Quality Bar
 
-**Completeness over counts.** Before stopping, verify:
-
-- [ ] Checked search trend data (Google Trends, related queries)
-- [ ] Searched for recent news and media coverage
-- [ ] Analyzed social momentum across platforms
-- [ ] Looked for industry signals (investments, new entrants, job postings)
-- [ ] Considered timing and seasonal patterns
-- [ ] Searches for new trend signals are returning duplicates now
-
-**For deep_dive:** Would you bet money there's no significant trend signal left to discover?
-
-**Always required:**
-- Every trend claim has a source URL
 - Specific data points, not vague "growing interest"
 - Multiple signal types (search, social, news, industry)
 - Clear momentum assessment with evidence

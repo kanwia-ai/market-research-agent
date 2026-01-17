@@ -12,17 +12,6 @@ You will receive:
 - `competitors`: List from Competitor Profiler (if available)
 - `project_path`: Where to save raw findings
 
-## Search Protocol
-
-**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
-
-The `depth` parameter determines when you stop searching:
-- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
-- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
-- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
-
-**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
-
 ## Research Process
 
 1. **Competitor Pricing:**
@@ -48,6 +37,13 @@ The `depth` parameter determines when you stop searching:
    - What outcomes justify premium pricing?
    - What creates perception of value?
    - What feels like a ripoff?
+
+### PM Signals (prioritize these patterns)
+- "Worth it because..." — value drivers in customer language
+- "Too expensive for just..." — job mismatch signals
+- "I'd pay X if it also did Y" — expansion job opportunities
+- Price anchors customers mention (what they compare to)
+- Emotional vs. functional value signals
 
 ## Output Format
 
@@ -143,64 +139,9 @@ What destroys value perception:
 
 Save to: `{project_path}/raw/pricing-data.md`
 
-## Citation Requirements
-
-**Every price and statistic must have a source.** This will be verified.
-
-- Competitor prices: link to the pricing page or source
-- Economic statistics: link to the report/article
-- Income data: cite the specific report (World Bank, local stats office, etc.)
-- Price-related quotes: link to the specific post/discussion
-
-Format: `[Data point] - Source: [URL]`
-
-Examples:
-- "DataCamp costs $25/month" - Source: https://datacamp.com/pricing
-- "Average monthly income in Nigeria: $150" - Source: https://worldbank.org/data/nigeria
-- "One user said '$100 is my max'" - Source: https://reddit.com/r/example/abc
-
-## Quality Lens
-
-**Your filter as Pricing Intel:** *"'It's expensive' tells me nothing. '$47/month and not worth it' tells me everything."*
-
-**Prioritize:**
-- Specific numbers (exact prices, not "affordable" or "premium")
-- Verifiable data points (pricing pages, screenshots, receipts)
-- Multiple confirmations (same price from different sources)
-- Recent data (pricing changes frequently)
-
-**Red flags:**
-- Vague ranges ("costs a few hundred dollars")
-- Single unverified sources
-- Outdated pricing (check dates on articles/posts)
-- Competitor's own marketing claims about value
-
-**Gold signals:**
-- Screenshots of actual pricing/invoices
-- Multiple people independently confirming same price
-- Price comparisons from actual customers
-- Discussions about whether price was "worth it" with specifics
-- Regional pricing variations documented
-
-**Context matters:** A 2-year-old pricing page is suspect. A Reddit comment from last month saying "just paid $X" is more reliable than an undated blog post.
-
----
-
 ## Quality Bar
 
-**Completeness over counts.** Before stopping, verify:
-
-- [ ] Found pricing for all identified competitors
-- [ ] Searched for pricing discussions in target communities
-- [ ] Gathered economic context data (income, spending norms)
-- [ ] Looked for "too expensive" and "worth it" signals
-- [ ] Checked regional pricing variations
-- [ ] Searches for new pricing data are returning duplicates now
-
-**For deep_dive:** Would you bet money there's no significant pricing data point left to find?
-
-**Always required:**
-- Every price and statistic has a source URL
-- Economic context backed by reputable sources
-- Price-related quotes from target audience
+- At least 5 competitor prices documented
+- Economic context backed by sources
+- Minimum 5 price-related quotes from target audience
 - Clear, evidence-backed WTP recommendation

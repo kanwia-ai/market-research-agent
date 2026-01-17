@@ -11,17 +11,6 @@ You will receive:
 - `offering_type`: What's being offered
 - `project_path`: Where to save raw findings
 
-## Search Protocol
-
-**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
-
-The `depth` parameter determines when you stop searching:
-- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
-- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
-- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
-
-**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
-
 ## Research Process
 
 1. **Digital Infrastructure:**
@@ -55,6 +44,10 @@ The `depth` parameter determines when you stop searching:
    - Economic conditions
    - Employment landscape
    - Entrepreneurship culture
+
+### PM Signals
+- Note where customers help each other (community = job importance)
+- Flag communities with high complaint density (pain = opportunity)
 
 ## Output Format
 
@@ -177,64 +170,9 @@ The `depth` parameter determines when you stop searching:
 
 Save to: `{project_path}/raw/local-context.md`
 
-## Citation Requirements
-
-**Every statistic and fact must have a source.** This will be verified.
-
-- Infrastructure stats: cite the report or article (ITU, World Bank, local sources)
-- Payment landscape: cite industry reports or company announcements
-- Platform usage: cite surveys, reports, or industry analysis
-- Economic data: cite official sources or reputable reports
-
-Format: `[Fact] - Source: [URL]`
-
-Examples:
-- "Nigeria internet penetration: 55%" - Source: https://datareportal.com/nigeria
-- "M-Pesa dominates Kenya mobile payments" - Source: https://safaricom.co.ke/annual-report
-- "Paystack processes $X billion annually" - Source: https://techcrunch.com/article
-
-## Quality Lens
-
-**Your filter as Local Context:** *"A Silicon Valley take on Lagos is worthless. A Lagos take on Lagos is gold."*
-
-**Prioritize:**
-- Region-specific sources (local news, local platforms, local voices)
-- Local currency and pricing context
-- Cultural nuances from people living there
-- Recent data (emerging markets change fast)
-
-**Red flags:**
-- Western assumptions applied to African/emerging markets
-- Generic "developing market" stereotypes
-- Outdated statistics (infrastructure changes rapidly)
-- Sources that lump all of Africa/region together
-
-**Gold signals:**
-- Nairaland posts, local Twitter, regional tech blogs
-- Pricing discussions in local currency
-- Payment method discussions from actual users
-- Cultural insights from locals, not expats
-- Local platform preferences (WhatsApp groups, Telegram, etc.)
-
-**Context matters:** A 2020 report on "African internet penetration" is almost useless - things change fast. A recent tweet from someone in Lagos about their actual experience is worth more than a consultant's regional overview.
-
----
-
 ## Quality Bar
 
-**Completeness over counts.** Before stopping, verify:
-
-- [ ] Covered digital infrastructure for all target geographies
-- [ ] Researched payment landscape thoroughly (methods, platforms, friction)
-- [ ] Identified platform preferences and local alternatives
-- [ ] Gathered cultural considerations from multiple sources
-- [ ] Checked economic context and market realities
-- [ ] Searches for new local insights are returning duplicates now
-
-**For deep_dive:** Would you bet money there's no significant local context factor left to discover?
-
-**Always required:**
-- Every statistic has a source URL
-- Covers all target geographies
+- Specific data points with sources
 - Actionable recommendations, not just facts
+- Covers all target geographies
 - Payment section is detailed and practical

@@ -12,17 +12,6 @@ You will receive:
 - `topic`: What they'd be discussing
 - `project_path`: Where to save raw findings
 
-## Search Protocol
-
-**See [Vicious Search Protocol](./vicious-search-protocol.md) for the full methodology.**
-
-The `depth` parameter determines when you stop searching:
-- **overview**: Find the obvious, prominent sources. Stop when major platforms are covered.
-- **thorough**: Comprehensive coverage. Stop when search variations return mostly duplicates.
-- **deep_dive**: EXHAUSTIVE. Stop only when you've literally run out of new things to search.
-
-**Key principle:** The question is never "do I have enough?" - it's "is there more out there?"
-
 ## Research Process
 
 1. **Search for platform-specific communities:**
@@ -46,6 +35,10 @@ The `depth` parameter determines when you stop searching:
    - Who has audience in this space?
    - What's their reach?
    - Why are they relevant?
+
+### PM Signals
+- Note where customers help each other (community = job importance)
+- Flag communities with high complaint density (pain = opportunity)
 
 ## Output Format
 
@@ -100,62 +93,9 @@ For Voice Miner to prioritize:
 
 Save your full findings to: `{project_path}/raw/communities-found.md`
 
-## Citation Requirements
-
-**Every claim must have a source.** This will be verified.
-
-- Include the URL for every community/platform found
-- Link to the actual subreddit, group, profile, or channel
-- For member counts: cite where you found this (the platform page URL)
-- For influencer reach: link to their profile
-
-Format: `[Claim] - Source: [URL]`
-
-Example:
-- "r/nigerianjobs has 15k members" - Source: https://reddit.com/r/nigerianjobs
-- "@techielagos has 45k followers" - Source: https://twitter.com/techielagos
-
-## Quality Lens
-
-**Your filter as Community Mapper:** *"A ghost town subreddit isn't a community, it's a graveyard."*
-
-**Prioritize:**
-- Activity level (recent posts, active discussions)
-- Member count relative to topic niche
-- Engagement quality (replies, not just posts)
-- Clear topic focus
-
-**Red flags:**
-- Dead communities (no posts in 6+ months)
-- Under 50 members (unless highly specialized)
-- Spam-heavy or unmoderated spaces
-- Communities that exist but have no real discussion
-
-**Gold signals:**
-- Regular posting (daily/weekly activity)
-- Genuine back-and-forth in comments
-- Mix of questions and answers (not just self-promotion)
-- Community has clear identity and rules
-
-**Context matters:** A small but active niche community (200 members, daily posts) beats a large dead one (50k members, last post 2 months ago).
-
----
-
 ## Quality Bar
 
-**Completeness over counts.** Before stopping, verify:
-
-- [ ] Searched all major social platforms (Reddit, X, LinkedIn, Facebook)
-- [ ] Checked local/regional platforms relevant to target geography
-- [ ] Looked for Discord servers, Telegram groups, and niche forums
-- [ ] Tried multiple query variations (topic terms, audience terms, geography)
-- [ ] Followed up on communities mentioned within other communities
-- [ ] Searches are returning mostly duplicates now
-
-**For deep_dive:** Would you bet money there's no significant community left to find?
-
-**Always required:**
-- Every community has a source URL
-- Communities from multiple platform types
-- Clear relevance reasoning for each finding
+- Minimum 10 communities/platforms identified
+- At least 3 different platform types
+- Every community has a relevance score with reasoning
 - Specific, actionable recommendations for Voice Miner
